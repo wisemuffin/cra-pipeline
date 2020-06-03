@@ -20,6 +20,7 @@ export class Pipeline extends CDK.Stack {
       websiteIndexDocument: 'index.html',
       websiteErrorDocument: 'error.html',
       publicReadAccess: true,
+      bucketName: 'wisemuffin.com',
     })
 
     // AWS CodeBuild artifacts
